@@ -1,0 +1,71 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    justifiy-content: center;
+    align-items: center
+}
+
+.layout .initialName {
+    flex: 1;
+    font-size: 4vw;
+    /* border: 1px solid red; */
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;;
+}
+
+.layout .bubbleChat {
+    flex: 1;
+    margin-top: 5vh;
+    font-size: 1.1vw;
+    height: 1vw;
+    width: 1vw;
+    /* border: 1px solid red; */
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 1vw;
+    background-color: #FDE0BA;
+}
+
+.layout .containerIconLink {
+    margin-top: 5vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    padding: 1vw 1vw 1vw 1vw;
+    /* border: 1px solid red; */
+    border-radius: 2vw;
+    background-color: #F7F6FE;
+    color: #0A1046;
+}
+
+.layout .containerIconLink .iconLink{
+    flex: 1;
+    font-size: 1.5vw;
+    border-radius: 50%;
+    padding: 0.3vw;
+    background-color: #515DCA;
+    color: white;
+}
+
+.layout .containerIconLink .iconLinkChoosed{
+    flex: 1;
+    font-size: 1.5vw;
+    background-color: #515DCA;
+    color: white;
+    border-radius: 50%;
+    padding: 0.3vw
+}
+
+.layout .avatar{
+    margin-top: 10vh;
+    flex: 1;
+}
+
+.layout .log{
+    margin-top: 1vh;
+    flex: 1;
+    font-size: 1.5vw;
+}
